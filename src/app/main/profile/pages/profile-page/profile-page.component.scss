@@ -1,18 +1,15 @@
-.container-login {
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
   width: 300px;
   height: auto;
   border-radius: 5px;
-  display: flex;
-  flex-direction: column;
   padding: 20px;
   background-color: #d9d6e1;
-  margin-top: 100px;
+  margin-top: 70px;
   font-size: 14px;
-}
-
-.container-login-form {
-  display: flex;
-  flex-direction: column;
 }
 
 .container-login__header {
@@ -20,20 +17,10 @@
   font-size: 18px;
 }
 
-.container-login mat-form-field,
-.container-login mat-form-field mat-label {
-  font-size: 14px;
-}
-
 .container-btn {
   display: flex;
   justify-content: flex-end;
   align-items: center;
-}
-
-.error-password {
-  white-space: break-spaces;
-  font-size: 14px;
 }
 
 .container-login__submit {
@@ -51,10 +38,4 @@
 
 .container-login__submit:active {
   background: #2a333c;
-}
-
-.error-login-password {
-  color: #f44336;
-  text-align: center;
-  margin: 10px 0;
 }
